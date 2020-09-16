@@ -1,0 +1,48 @@
+@media screen and (min-width: 668px){
+  header{
+    background-image: url('./shoe-model.jpeg');
+    max-width: 100%;
+  }
+  .responsive{
+  }
+  }
+
+  @media screen and (min-width: 800px){
+    *{
+      margin: 0px;
+      padding: 0px;
+    }
+    body{
+      background-color: none;
+    }
+    header{
+        background: url('./shoe-model.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .responsive{
+      background: url('./WMHVRO-HERO.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+
+    }
+
+}
+
+@media screen and (min-width: 320px){
+  
+  li
+  header{
+    background: url('./shoe-model.jpeg') center/cover no-repeat;
+    
+  }
+  
+  .title img{
+    background: url('./WMHVRO-HERO.jpg') center/cover repeat;
+  }
+
+  .title{
+    background: none;
+  }
+}
